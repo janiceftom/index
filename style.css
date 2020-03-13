@@ -107,7 +107,7 @@ ul, ol {
   border-top: 10px solid Teal;
 }
 
-.wrapper {
+.nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -138,29 +138,26 @@ ul, ol {
   width: 25%;
 }
 ​
-.wrapper {
+.wrapper2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
 }
 ​
 .one {
   grid-column: 1;
   grid-row: 1;
-  background-image: url(images/dryingrosehips.jpg);
 }
 ​
 .two {
   grid-column: 2;
   grid-row: 1;
-  background-image: url(images/greensoapberry.jpg);
 }
 ​
 .three {
   grid-column: 3;
   grid-row: 1;
-  background-image: url(images/soapberry.jpg);
 }
 
 .wrapper2 {
@@ -169,22 +166,51 @@ ul, ol {
   grid-gap: 10px;
   grid-auto-rows: minmax(20px, auto);
 }
-​
+
 .four {
+  grid-column: 1;
+  grid-row: 1;
+}
+​
+.five {
+  grid-column: 2;
+  grid-row: 1;
+}
+​
+.six {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.wrapper3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(20px, auto);
+}
+​
+.wrapper4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(20px, auto);
+}
+
+.seven {
   grid-column: 1;
   grid-row: 1;
   padding: 5px;
   text-align: center;;
 }
 ​
-.five {
+.eight {
   grid-column: 2;
   grid-row: 1;
   padding: 5px;
   text-align: center;
 }
 ​
-.six {
+.nine {
   grid-column: 3;
   grid-row: 1;
   padding: 5px;
