@@ -157,7 +157,7 @@ ul, ol {
 ​
 .wrapper2 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(200px, auto);
 }
@@ -184,10 +184,6 @@ ul, ol {
   grid-auto-rows: minmax(20px, auto);
 }
 
-.four {
-  grid-column: 1;
-  grid-row: 1;
-}
 ​
 .five {
   grid-column: 2;
