@@ -17,6 +17,8 @@ footer {
 .container {
   position: relative;
   text-align: center;
+  max-width: 1000 px
+  margin: 0 auto;
   color: white;
 }
 
@@ -55,6 +57,11 @@ header h1{
   color: white;
 }
 
+div {
+    margin: 0 auto;
+}
+
+}
 h1, h2, h3 {
   color: Black;
   font-family: Helvetica, Arial;
