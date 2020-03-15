@@ -12,6 +12,12 @@ footer {
   padding: 30px;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 /* Bottom right text */
 .bottom-right {
   position: absolute;
