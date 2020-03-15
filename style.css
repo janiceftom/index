@@ -5,8 +5,13 @@
 /*  border: 1px solid red;*/
 box-sizing: border-box;
 }
+
+nav {
+  display: block;
+}
+
 div.scrollmenu {
-  background-color: #333;
+  background-color: grey;
   overflow: auto;
   white-space: nowrap;
 }
@@ -20,7 +25,7 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #777;
+  background-color: teal;
 }
 
 header,
