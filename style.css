@@ -12,12 +12,6 @@ footer {
   padding: 30px;
 }
 
-.banner {
-  height: 350px;
-  background-image: url(images/douglaslake.jpg);
-}
-
-
 .container {
   position: relative;
   font-family: Arial;
