@@ -6,10 +6,6 @@
 box-sizing: border-box;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-
 header,
 section,
 footer {
