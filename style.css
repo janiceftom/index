@@ -12,7 +12,7 @@ nav {
 }
 
 div.scrollmenu {
-  background-color: lime;
+  background-color: black;
   overflow: auto;
   white-space: nowrap;
 }
@@ -26,7 +26,7 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: teal;
+  background-color: lime;
 }
 
 header,
