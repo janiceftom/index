@@ -20,13 +20,6 @@ footer {
   color: white;
 }
 
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
 .title {
   font-size: 48 px;
   text-decoration: underline;
@@ -71,7 +64,7 @@ h1, h2, h3 {
 }
 
 p {
-  front-size: 12 px;
+  front-size: 14 px;
   color: black;
   line-height: 1.5;
   margin-top: 20px;
@@ -108,6 +101,7 @@ ul, ol {
   color: black;
   margin: 30px;
   padding: 30px;
+  text-align: center;
 }
 
 .photo1 {
@@ -116,6 +110,7 @@ ul, ol {
   color: black;
   margin: 30px;
   padding: 30px;
+  text-align: center;
 }
 
 .footer {
@@ -153,33 +148,42 @@ ul, ol {
   grid-column: 3;
   grid-row: 1;
   width: 25%;
+  front-size: 12 px;
 }
 ​
 .wrapper2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
 }
 ​
 .one {
   grid-column: 1;
   grid-row: 1;
+  padding: 5px;
+  text-align: center;
 }
 ​
 .two {
   grid-column: 2;
   grid-row: 1;
+  padding: 5px;
+  text-align: center;
 }
 ​
 .three {
   grid-column: 3;
   grid-row: 1;
+  padding: 5px;
+  text-align: center;
 }
 
 .four {
   grid-column: 4;
   grid-row: 1;
+  padding: 5px;
+  text-align: center;
 }
 
 .wrapper2 {
@@ -193,18 +197,22 @@ ul, ol {
 .five {
   grid-column: 2;
   grid-row: 1;
+  padding: 5px;
+  text-align: center;
 }
 ​
 .six {
   grid-column: 3;
   grid-row: 1;
+  padding: 5px;
+  text-align: center;
 }
 
 .seven {
   grid-column: 1;
   grid-row: 1;
   padding: 5px;
-  text-align: center;;
+  text-align: center;
 }
 ​
 .eight {
