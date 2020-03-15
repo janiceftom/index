@@ -5,6 +5,23 @@
 /*  border: 1px solid red;*/
 box-sizing: border-box;
 }
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
 
 header,
 section,
@@ -151,40 +168,6 @@ ul, ol {
   border-top: 10px solid Teal;
 }
 
-.nav {
-  font-size: 30 px;
-  font-weight: bold;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-​
-.home {
-  grid-column: 1;
-  grid-row: 1;
-  width: 25%;
-}
-​
-.tmixw {
-  grid-column: 2;
-  grid-row: 1;
-  width: 25%;
-}
-​
-.services {
-  grid-column: 3;
-  grid-row: 1;
-  width: 25%;
-}
-​
-.credits {
-  grid-column: 3;
-  grid-row: 1;
-  width: 25%;
-  front-size: 12 px;
-}
-​
 .wrapper2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
