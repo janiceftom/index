@@ -16,6 +16,7 @@ footer {
 .banner {
     height: 350 px;
     background-image: url(images/eagle.jpg);
+    background-size: cover;
 }
 
 .container {
