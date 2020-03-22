@@ -1,5 +1,5 @@
 nav {
-  display: rounded;
+  display: block;
 }
 
 div.scrollmenu {
@@ -10,7 +10,7 @@ div.scrollmenu {
 
 div.scrollmenu a {
   display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px;
   text-decoration: none;
