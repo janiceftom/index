@@ -1,9 +1,5 @@
- * {
-box-sizing: border-box;
-}
-
 nav {
-  display: block;
+  display: rounded;
 }
 
 div.scrollmenu {
