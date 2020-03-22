@@ -6,7 +6,6 @@
 box-sizing: border-box;
 }
 
-
 nav {
   display: block;
 }
@@ -36,11 +35,11 @@ footer {
 }
 
 .banner {
-    width: 1200;
-    height: 200;
+    width: 1200px;
+    height: 200px;
     background-image: url(images/eagle.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .container {
