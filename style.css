@@ -200,7 +200,7 @@ ul, ol {
   text-align: center;
 }
 
-.wrapper3 {
+.wrapper2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
