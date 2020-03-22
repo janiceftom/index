@@ -42,6 +42,10 @@ footer {
     background-size: 100%;
 }
 
+.banner:hover {
+  background-size: 100%;
+}
+
 .container {
   position: relative;
   text-align: center;
