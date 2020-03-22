@@ -10,6 +10,9 @@ div.scrollmenu a {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-size: 20px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
 }
 
 div.scrollmenu a:hover {
