@@ -13,7 +13,7 @@ div.scrollmenu a {
   color: black;
   text-align: center;
   padding: 14px;
-  text-decoration: bold;
+  text-decoration: none;
 }
 
 div.scrollmenu a:hover {
